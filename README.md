@@ -1,2 +1,2 @@
 # -Objectives-checklist
- add/delete entries to a checlist. 
+ add/delete entries to a checklist. 
