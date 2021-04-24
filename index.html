@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">      
+    <title>Objectives:</title>
+</head>
+<body>
+<header>
+    <h1>Objectives:</h1>
+</header>
+<form>
+    <input type="text" class="todo-input"/>
+    <button class="todo-button" type="submit">
+        <i class="fas fa-plus-square"></i>
+    </button>
+    <div class="select">
+        <select name="todos" class="filter-todo">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+    </div>
+</form>
+<div class="todo-container">
+    <ul class="todo-list"></ul>
+</div>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
